@@ -43,7 +43,7 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
     }
 
     @Override
-    public int getNumberOfElements() {//DONE
+    public int getNumberOfElements() {
         if (root == null){
             return 0;
         }
@@ -51,7 +51,7 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
     }
 
     @Override
-    public void addElement(int element) {//DONE
+    public void addElement(int element) {
         if (root == null){
             root = new Node(element);
         }
@@ -61,14 +61,14 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
     }
 
     @Override
-    public void addElements(int[] elements) {//DONE
+    public void addElements(int[] elements) {
         for (int i=0;i<elements.length;i++){
             addElement(elements[i]);
         }
     }
 
     @Override
-    public boolean findElement(int value) {//DONE
+    public boolean findElement(int value) {
         Node n = findNode(value);
         if (n != null){
             return true;
@@ -77,7 +77,7 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
     }
 
     @Override
-    public int getLeftChild(int element) throws ChildNotFoundException{//DONE
+    public int getLeftChild(int element) throws ChildNotFoundException{
         //find node with element
         //return root.left
 
@@ -85,21 +85,21 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
         if (node != null) {
             return node.left.value;
         }
-        throw new ChildNotFoundException();
+        throw new ChildNotFoundException("Left child doesn't exist");
     }
 
     @Override
-    public int getRightChild(int element) throws ChildNotFoundException {//DONE
+    public int getRightChild(int element) throws ChildNotFoundException {
         Node node = findNode(element);//find the node with element value
         if (node != null) {
             return node.right.value;
         }
-        throw new ChildNotFoundException();
+        throw new ChildNotFoundException("Right child doesn't exist");
 
     }
 
     @Override
-    public int[] getSortedTreeAsc() {//half done --> need to put into array
+    public int[] getSortedTreeAsc() {
         arrayOfNodes = new int[getNumberOfElements()];
         counter = 0;
         sortAsc(root);
@@ -107,7 +107,7 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
     }
 
     @Override
-    public int[] getSortedTreeDesc() {//half done --> need to put into array
+    public int[] getSortedTreeDesc() {
         arrayOfNodes = new int[getNumberOfElements()];
         counter = 0;
         sortDesc(root);
