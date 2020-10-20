@@ -9,6 +9,7 @@ package org.Sparta.Ben.SortPrograms;
 import org.Sparta.Ben.View.Printer;
 
 public class MergeSortImpl implements Sorter {
+	
     Printer printer = new Printer();
 
     public void mergeSortImpl(){

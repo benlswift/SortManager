@@ -25,7 +25,6 @@ public class BinaryTreeImpl implements BinaryTree, Sorter {
 
     Node root;
 
-
     @Override
     public int[] sortArray(int[] arrayToSort) {
         addElements(arrayToSort);

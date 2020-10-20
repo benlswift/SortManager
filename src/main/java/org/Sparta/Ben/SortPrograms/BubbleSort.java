@@ -30,4 +30,5 @@ public class BubbleSort implements Sorter {
     public int[] sortArray(int[] arrayToSort) {
         return bubbleSort(arrayToSort);
     }
+	
 }

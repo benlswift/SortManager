@@ -51,5 +51,4 @@ public class SortSelector {
         return sortType;
 
     }
-
 }

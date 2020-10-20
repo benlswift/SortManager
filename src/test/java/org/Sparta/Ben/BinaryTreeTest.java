@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 public class BinaryTreeTest {
+	
     int root = 10;
     int[] arrayOfElement = {4,6,2,7,3,9};
     BinaryTreeImpl binaryTree = new BinaryTreeImpl(root);

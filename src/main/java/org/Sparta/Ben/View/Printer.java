@@ -2,6 +2,7 @@ package org.Sparta.Ben.View;
 import java.util.Arrays;
 
     public class Printer <T> {
+		
         public void printList(int[] listOfNums){
             System.out.println(Arrays.toString(listOfNums));
 

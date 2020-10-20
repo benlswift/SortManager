@@ -7,7 +7,6 @@ import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
 
-
 public class GenerateInputArray {
     public int[] generateArray(int size){
         Printer printer = new Printer();

@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 
 public class ChildNotFoundException extends Exception{
+	
     public ChildNotFoundException(String message){
         super(message);
         Logger logger = LogManager.getLogger();

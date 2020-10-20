@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Starter {
+	
     Printer printer = new Printer();
     GenerateInputArray generateInputArray = new GenerateInputArray();
     Logger logger = LogManager.getLogger();

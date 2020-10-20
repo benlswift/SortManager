@@ -3,6 +3,7 @@ package org.Sparta.Ben.SortPrograms;
 import org.Sparta.Ben.Exceptions.ChildNotFoundException;
 
 public interface BinaryTree {
+	
         int getRootElement();
 
         int getNumberOfElements();
