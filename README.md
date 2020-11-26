@@ -1,18 +1,16 @@
-#Sort manager
+# Sort manager
 
 This program generates an array of numbers of a chosen length.
 This array is then sorted by a sort algorithm of the user's choosing.
 
----
+## User Guide
 
-Choose from running a sort using:
+After entering the number of elements a random array is created.
+Now you may select a type of sort to run in the array:
 
 1. Bubble Sort
 2. Merge Sort
 3. Binary Tree
 
-The program will also ask how many elements you wish to sort.
-
-After entering this, an array will be generated and sorted using the chosen sort type.
-The time elapsed will also be shown.
+The elements will be sorted and the time elapsed will also be shown.
 
