@@ -3,6 +3,10 @@
 This program generates an array of numbers of a chosen length.
 This array is then sorted by a sort algorithm of the user's choosing.
 
+## Requirements
+- Create a program that can sort a given array using a bubble sort, merge sort or binary tree
+- A factory pattern must be used to create the sorter object
+
 ## User Guide
 
 After entering the number of elements a random array is created.
