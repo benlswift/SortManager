@@ -26,6 +26,7 @@ public class Starter {
             sortType = sortSelector.sortSelector();
             sizeOfArray = sortSelector.arraySize();
             arrayToSort = generateInputArray.generateArray(sizeOfArray);
+
             Sorter sort = sortFactory.getSort(sortType);
             startTime = System.nanoTime();
             printer.printList(sort.sortArray(arrayToSort));

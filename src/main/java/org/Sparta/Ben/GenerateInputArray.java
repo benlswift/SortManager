@@ -15,7 +15,7 @@ public class GenerateInputArray {
         Random random = new Random();
         try {
             for (int i = 0; i < size; i++) {
-                arrayToSort[i] = random.nextInt(10);
+                arrayToSort[i] = random.nextInt(100);
             }
             printer.print("Array before sort:");
             printer.printList(arrayToSort);

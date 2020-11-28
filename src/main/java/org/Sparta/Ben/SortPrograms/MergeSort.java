@@ -8,17 +8,15 @@ package org.Sparta.Ben.SortPrograms;
 
 import org.Sparta.Ben.View.Printer;
 
-public class MergeSortImpl implements Sorter {
+public class MergeSort implements Sorter {
 	
     Printer printer = new Printer();
 
     public void mergeSortImpl(){
     }
+
     @Override
-    public int[] sortArray(int[] arrayToSort) {
-        return getSortedArray(arrayToSort);
-    }
-    public int[] getSortedArray(int[] arrayToSort){
+    public int[] sortArray(int[] arrayToSort){
         printer.print("Starting Merge Sort");
         mergeSort(arrayToSort);
         return arrayToSort;
